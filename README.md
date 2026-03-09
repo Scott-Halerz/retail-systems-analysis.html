@@ -16,7 +16,5 @@ According to the scenarios in problem set 3, the required apartment rent uplift 
 **Sensitivity Chart:**
 ![image alt](https://github.com/Scott-Halerz/retail-systems-analysis.html/blob/11d9a0c984f4fc01ecb3bd5524e1f54a4898b70a/Halerz_retail_sales_sensitivity.png)
 
-Embed your PNG chart: <[img src="retail_sales_sensitivity.png" width="600"](https://github.com/Scott-Halerz/retail-systems-analysis.html/blob/11d9a0c984f4fc01ecb3bd5524e1f54a4898b70a/Halerz_retail_sales_sensitivity.png)>
-
  **Capital Allocation Reflection:**
 I would support allocating funds to support underperfomring retail with the combination of residental and mixed-use development to offset the overall cost and high volititly of retail. Additionlly, I would prioritize supporting retail uses that provide essential daily goods and services, particularly in neighborhoods where such amenities are limited and non-existent and combination of mixed-use development. These forms of retail establishments often serve a foundational role in community well-being and health by ensuring residents have reliable access to basic necessities without requiring traveling long distances. Lastly, I would support allocating funds in areas with high pederstrian walkability around major transit stops. These locations naturally generate consistent foot traffic from commuters and residents, creating the customer base necessary for daily‑needs retail to succeed. In conculsion, a combination of any of the factors above would only enhance the overall strategic investment of public capital regarding retail.
