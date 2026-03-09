@@ -13,10 +13,6 @@ Retail is fragile due to its high operating costs, thin profit margins, and cons
 **Loss Leader Analysis:**
 According to the scenarios in problem set 3, the required apartment rent uplift must be around 75-80% or higher, to hep offset the overall loss retail would generate. This is realistic in some scenarios, however I would say rare and for most projects, none-existant. Public subsidy would be justiffied in this case, saying that the project generates signigant apartment uplift and would be a strategic ivnestment of public funds.
 
-1.Required apartment rent uplift
-2.Whether it is realistic
-3.Whether public subsidy is justified
-
 **Sensitivity Chart:**
 Embed your PNG chart: <img src="retail_sales_sensitivity.png" width="600">
 
