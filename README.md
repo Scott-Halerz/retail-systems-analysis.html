@@ -3,12 +3,12 @@ Retail is fragile due to its high operating costs, thin profit margins, and cons
 
 **Scenario Summary Table:**
 
-| Scenario	 | Resdual Land Value (RLV)	 | 
-|---|---|
-| Standalone | 5,167.41| 1,156,427.85| 1,156,427.85 |-715,349.33 |
-| Apartment Uplift | 200,000,000.00 | Row 2, Col 3 | Row 2, Column 4
-| Catalyst | 1,156,427.85 | Row 2, Col 3 | Row 2, Column 4
-| Low Office Occupancy| -715,349.33
+| Scenario	 | Residual Land Value (RLV)	 | System Gain/Loss | Viable|
+|---|---|---|---|
+| Standalone | 5,167.41| Gain |  Yes
+| Apartment Uplift | 200,000,000.00 | Gain | Yes
+| Catalyst | 1,156,427.85 | Gain | Yes
+| Low Office Occupancy| -715,349.33 | Loss    | No
 
 Scenario	Retail RLV	System Gain/Loss	Viable?
 Standalone			
