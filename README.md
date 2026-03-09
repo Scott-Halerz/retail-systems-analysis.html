@@ -10,12 +10,6 @@ Retail is fragile due to its high operating costs, thin profit margins, and cons
 | Catalyst | 1,156,427.85 | Gain | Yes
 | Low Office Occupancy| -715,349.33 | Loss    | No
 
-Scenario	Retail RLV	System Gain/Loss	Viable?
-Standalone			
-Apartment Uplift			
-Catalyst			
-Low Office Occupancy
-
 **Loss Leader Analysis:**
 State:
 
@@ -27,5 +21,4 @@ State:
 Embed your PNG chart: <img src="retail_sales_sensitivity.png" width="600">
 
  **Capital Allocation Reflection:**
-Short paragraph answering
-If you were allocating public funds, under what conditions would you support retail development?
+I would support allocating funds to support underperfomring retail with the combination of residental and mixed-use development to offset the overall cost and high volititly of retail. Additionlly, I would prioritize supporting retail uses that provide essential daily goods and services, particularly in neighborhoods where such amenities are limited and non-existent and combination of mixed-use development. These forms of retail establishments often serve a foundational role in community well-being and health by ensuring residents have reliable access to basic necessities without requiring traveling long distances. Lastly, I would support allocating funds in areas with high pederstrian walkability around major transit stops. These locations naturally generate consistent foot traffic from commuters and residents, creating the customer base necessary for daily‑needs retail to succeed. In conculsion, a combination of any of the factors above would only enhance the overall strategic investment of public capital regarding retail.
