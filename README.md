@@ -1,6 +1,6 @@
 **Overview:**
 Retail is fragile due to its high operating costs, thin profit margins, and consistently low net operating income. In this context, threshold logic refers to the point at which retail revenues cross a critical tipping point determining whether the retail space generates profit or becomes a financial liability because retail often hovers near break-even performance and is highly sensitive to market volatility. Since retail frequently does not pencil out as a standalone use. As a result, retail typically requires cross-investment opportunities through mixed-use developments or a catalyist to remain financially viable.
-https://github.com/Scott-Halerz/retail-systems-analysis.html/blob/main/README.md
+
 **Scenario Summary Table:**
 
 | Scenario	 | Residual Land Value (RLV)	 | System Gain/Loss | Viable|
