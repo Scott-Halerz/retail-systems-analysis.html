@@ -1,1 +1,93 @@
-
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# PS4 / PS5 Mixed-Use NOI Visualization (Colab Template)\n",
+        "\n",
+        "Use this notebook to create a **stacked NOI chart** for your Burnham Place mixed-use program.\n",
+        "\n",
+        "## What to do\n",
+        "1. Replace the sample NOI values below with your own NOI values from Excel.\n",
+        "2. Run the notebook.\n",
+        "3. Export the chart as a PNG.\n",
+        "4. Submit the PNG screenshot and the `.ipynb` file for extra credit.\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "# Enter your NOI values from Excel here\n",
+        "residential_noi = 8500000\n",
+        "office_noi = 5200000\n",
+        "retail_noi = 1150000\n",
+        "hotel_noi = 2400000\n",
+        "\n",
+        "labels = ['Burnham Place']\n",
+        "res = [residential_noi]\n",
+        "off = [office_noi]\n",
+        "ret = [retail_noi]\n",
+        "hot = [hotel_noi]\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Build stacked NOI chart\n",
+        "plt.figure(figsize=(8,6))\n",
+        "plt.bar(labels, res, label='Residential NOI')\n",
+        "plt.bar(labels, off, bottom=res, label='Office NOI')\n",
+        "plt.bar(labels, ret, bottom=[r+o for r,o in zip(res, off)], label='Retail NOI')\n",
+        "plt.bar(labels, hot, bottom=[r+o+t for r,o,t in zip(res, off, ret)], label='Hotel NOI')\n",
+        "plt.ylabel('Annual NOI ($)')\n",
+        "plt.title('Burnham Place Mixed-Use NOI Stack')\n",
+        "plt.legend()\n",
+        "plt.tight_layout()\n",
+        "plt.show()\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Save chart as PNG\n",
+        "out_path = 'burnham_place_noi_stack.png'\n",
+        "plt.figure(figsize=(8,6))\n",
+        "plt.bar(labels, res, label='Residential NOI')\n",
+        "plt.bar(labels, off, bottom=res, label='Office NOI')\n",
+        "plt.bar(labels, ret, bottom=[r+o for r,o in zip(res, off)], label='Retail NOI')\n",
+        "plt.bar(labels, hot, bottom=[r+o+t for r,o,t in zip(res, off, ret)], label='Hotel NOI')\n",
+        "plt.ylabel('Annual NOI ($)')\n",
+        "plt.title('Burnham Place Mixed-Use NOI Stack')\n",
+        "plt.legend()\n",
+        "plt.tight_layout()\n",
+        "plt.savefig(out_path, dpi=200)\n",
+        "out_path\n"
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python",
+      "version": "3.x"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
